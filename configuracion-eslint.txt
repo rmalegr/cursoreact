@@ -1,0 +1,33 @@
+{
+	"workbench.iconTheme": "material-icon-theme",
+	"bracket-pair-colorizer-2.depreciation-notice": false,
+	"vsicons.dontShowNewVersionMessage": true,
+	"git.enableSmartCommit": true,
+	"workbench.colorTheme": "GitHub Dark Default",
+	"notebook.lineNumbers": "on",
+	"editor.tabSize": 2,
+	"editor.fontLigatures": false,
+	"editor.suggest.showSnippets": true,
+	"editor.acceptSuggestionOnCommitCharacter": true,
+	"editor.bracketPairColorization.enabled": true,
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.codeActionsOnSave": {
+	
+		"source.fixAll.eslint": true
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
+	},
+	"prettier.insertPragma": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.useTabs": true,
+	"eslint.alwaysShowStatus": true,
+	"eslint.format.enable": true,
+	"eslint.lintTask.enable": true,
+	"eslint.onIgnoredFiles": "warn"
+}
