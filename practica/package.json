@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
-    "format": "npx prettier --write . "
+    "format": "npx prettier --write . ",
+    "test": "jest --watchAll"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
@@ -25,8 +26,10 @@
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.0",
+    "jest": "^28.1.1",
     "prettier": "^2.7.0",
     "vite": "^2.9.9"
   }
