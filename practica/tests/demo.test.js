@@ -1,5 +1,12 @@
-test('Esta prueba no debe fallar', () => {
-  if (1 === 0) {
-    throw new Error('No puede dividir por cero')
-  }
+/* eslint-disable no-undef */
+describe('Pruebas en <DemoComponent', () => {
+  test('Esta prueba no debe fallar', () => {
+  // 1. inicializacion
+    const message1 = 'hola mundo'
+    // estimulo
+    const message2 = message1.trim()
+
+    // 3. Observar el comportmiento .. esperado
+    expect(message1).toBe(message2)
+  })
 })
